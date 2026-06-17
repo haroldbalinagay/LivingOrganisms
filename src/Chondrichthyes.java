@@ -6,7 +6,7 @@ public abstract class Chondrichthyes {
     public String typeOfHabitat() {
         return typeOfHabitat;
     }
-    public void stayBouyant() {
+    public void stayBuoyant() {
         IO.println("Uses oily liver to avoid sinking");
     }
     public abstract void swim();
