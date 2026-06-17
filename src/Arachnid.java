@@ -7,7 +7,7 @@ public abstract class Arachnid {
         return hasVenom;
     }
     public void molt() {
-        System.out.println("Shedding the old exoskeleton.");
+        IO.println("Shedding the old exoskeleton.");
     }
     public abstract void capturePrey();
 }
