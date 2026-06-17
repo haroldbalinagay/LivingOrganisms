@@ -1,5 +1,5 @@
 public abstract class Cephalopod {
-    private int tentacleCount;
+    protected int tentacleCount;
     public Cephalopod(int tentacleCount){
         this.tentacleCount = tentacleCount;
     }

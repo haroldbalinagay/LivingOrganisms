@@ -1,5 +1,5 @@
 public abstract class Arachnid {
-    private boolean hasVenom;
+    protected boolean hasVenom;
     public Arachnid(boolean hasVenom) {
         this.hasVenom = hasVenom;
     }

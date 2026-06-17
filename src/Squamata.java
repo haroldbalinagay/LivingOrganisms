@@ -1,5 +1,5 @@
 public abstract class Squamata {
-    private String scaleColor;
+    protected String scaleColor;
     public Squamata(String scaleColor) {
         this.scaleColor = scaleColor;
     }
