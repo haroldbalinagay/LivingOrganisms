@@ -1,5 +1,5 @@
 public abstract class Chondrichthyes {
-    private String typeOfHabitat;
+    protected String typeOfHabitat;
     public Chondrichthyes(String typeOfHabitat) {
         this.typeOfHabitat = typeOfHabitat;
     }
