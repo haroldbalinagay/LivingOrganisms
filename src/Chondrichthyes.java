@@ -3,7 +3,7 @@ public abstract class Chondrichthyes {
     public Chondrichthyes(String typeOfHabitat) {
         this.typeOfHabitat = typeOfHabitat;
     }
-    public String typeOfHabitat() {
+    public String getTypeOfHabitat() {
         return typeOfHabitat;
     }
     public void stayBuoyant() {
