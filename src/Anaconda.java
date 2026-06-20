@@ -1,4 +1,4 @@
-public class Anaconda extends Squamata{
+public class Anaconda extends Squamata implements Nocturnal{
     private double coilLength;
     public Anaconda(String scaleColor, double coilLength) {
         super(scaleColor);
@@ -16,5 +16,9 @@ public class Anaconda extends Squamata{
     @Override
     public void hunt() {
         IO.println("Using its coils the anaconda constricts and strangles prey");
+    }
+    @Override
+    public void nightAction() {
+        IO.println("The anaconda uses its heat-sensing organs to track warm-blooded prey in the dark.");
     }
 }
