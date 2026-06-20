@@ -1,4 +1,4 @@
-public class Gecko extends Squamata{
+public class Gecko extends Squamata implements Regenerative{
     private double gripStrength;
     public Gecko(String scaleColor,double gripStrength) {
         super(scaleColor);
@@ -16,5 +16,9 @@ public class Gecko extends Squamata{
     @Override
     public void hunt() {
         IO.println("The gecko stalks and lunges to gnaw on small insects.");
+    }
+    @Override
+    public void Regenerate() {
+        IO.println("The gecko triggers cellular division to regrow its lost tail.");
     }
 }
