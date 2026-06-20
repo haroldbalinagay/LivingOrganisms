@@ -1,4 +1,4 @@
-public class BlackBear extends Caniformia{
+public class BlackBear extends Caniformia implements Arboreal{
     private double hibernationDuration;
     public BlackBear(double furLength, double hibernationDuration) {
         super(furLength);
@@ -16,5 +16,9 @@ public class BlackBear extends Caniformia{
     @Override
     public void communicate() {
         IO.println("Growls at other animals or other bears.");
+    }
+    @Override
+    public void navigateTrees() {
+        IO.println("After climbing a tree black bears forage for nuts or escape danger.");
     }
 }
