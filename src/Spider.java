@@ -1,4 +1,4 @@
-public class Spider extends Arachnid{
+public class Spider extends Arachnid implements Venomous{
     private double legLength;
     public Spider(boolean hasVenom, double legLength) {
         super(hasVenom);
@@ -16,5 +16,9 @@ public class Spider extends Arachnid{
     @Override
     public void capturePrey() {
         IO.println("Waits in a sticky web to catch flying insects.");
+    }
+    @Override
+    public void injectVenom() {
+        IO.println("The spider channels venom through its sharp fangs.");
     }
 }
