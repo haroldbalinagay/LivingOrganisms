@@ -1,3 +1,3 @@
 public interface Regenerative {
-    void Regenerate();
+    public void Regenerate();
 }

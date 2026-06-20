@@ -1,3 +1,3 @@
 public interface Venomous {
-    void injectVenom();
+    public void injectVenom();
 }
