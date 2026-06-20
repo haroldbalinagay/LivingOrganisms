@@ -1,4 +1,4 @@
-public class Octopus extends Cephalopod{
+public class Octopus extends Cephalopod implements Regenerative{
     private int iq;
     public Octopus(int tentacleCount, int iq) {
         super(tentacleCount);
@@ -16,5 +16,9 @@ public class Octopus extends Cephalopod{
     @Override
     public void defense() {
         IO.println("Changes skin texture and color to blend with environment.");
+    }
+    @Override
+    public void Regenerate() {
+        IO.println("The octopus slowly regenerates a lost arm.");
     }
 }
