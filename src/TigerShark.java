@@ -1,4 +1,4 @@
-public class TigerShark extends Chondrichthyes {
+public class TigerShark extends Chondrichthyes implements Nocturnal{
     private int stripeCount;
     public TigerShark(String typeOfHabitat, int stripeCount) {
         super(typeOfHabitat);
@@ -16,5 +16,9 @@ public class TigerShark extends Chondrichthyes {
     @Override
     public void swim() {
         IO.println("Swims quickly through coastal waters looking for food.");
+    }
+    @Override
+    public void nightAction() {
+        IO.println("The tiger shark moves closer to reefs at night to surprise sleeping prey.");
     }
 }
