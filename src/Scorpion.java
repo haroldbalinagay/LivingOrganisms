@@ -1,4 +1,4 @@
-public class Scorpion extends Arachnid{
+public class Scorpion extends Arachnid implements Venomous{
     private double pincerSize;
     public Scorpion(boolean hasVenom, double pincerSize) {
         super(hasVenom);
@@ -16,5 +16,9 @@ public class Scorpion extends Arachnid{
     @Override
     public void capturePrey() {
         IO.println("Grabs prey firmly with its pincers and stings it.");
+    }
+    @Override
+    public void injectVenom() {
+        IO.println("The scorpion strikes with its stinger to inject venom.");
     }
 }
